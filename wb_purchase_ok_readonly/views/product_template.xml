@@ -6,7 +6,7 @@
             <field name="model">product.template</field>
             <field name="inherit_id" ref="product.product_template_form_view"/>
             <field name="groups_id"
-                   eval="[(6, 0, [ref('ref=wb_purchase_ok_readonly.module_category_purchase_ok_readonly')])]"/>
+                   eval="[(6, 0, [ref('wb_purchase_ok_readonly.group_purchase_ok_readonly')])]"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='purchase_ok']"
                        position="attributes">
